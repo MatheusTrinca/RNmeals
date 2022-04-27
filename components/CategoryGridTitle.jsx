@@ -2,7 +2,6 @@ import { Pressable, StyleSheet, Text, View, Platform } from 'react-native';
 import React from 'react';
 
 const CategoryGridTitle = ({ title, color, onPress }) => {
-  console.log(title);
   return (
     <View style={styles.gridItem}>
       <Pressable
