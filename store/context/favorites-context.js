@@ -14,7 +14,7 @@ const FavoritesProvider = ({ children }) => {
   };
 
   const removeFavorite = id => {
-    setFavoriteMealsIds(prevState => prevState.filter(mealId => mealId === id));
+    setFavoriteMealsIds(prevState => prevState.filter(mealId => mealId !== id));
   };
 
   return (
